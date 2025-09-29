@@ -95,7 +95,7 @@
                 <li><a href="#translation" class="nav-link hover:text-[#C77D55] transition-colors">번역으로서 <br>공연</a></li>
                 <li><a href="#rehearsal" class="nav-link hover:text-[#C77D55] transition-colors">사례 <br>탐구</a></li>
                 <li><a href="#provocation" class="nav-link hover:text-[#C77D55] transition-colors">도발적 <br>사유</a></li>
-                <li><a href="#gemini-lab" class="nav-link hover:text-[#C77D55] transition-colors">✨AI <br>사유</a></li>
+                <li><a href="#genspark_API_lab" class="nav-link hover:text-[#C77D55] transition-colors">✨AI <br>사유</a></li>
                 <li><a href="#art" class="nav-link hover:text-[#C77D55] transition-colors">예술의 <br>역할</a></li>
                 <li><a href="#new-game" class="nav-link hover:text-[#C77D55] transition-colors">새로운 <br>놀이</a></li>
                 <li><a href="#education" class="nav-link hover:text-[#C77D55] transition-colors">교육적 <br>제언</a></li>
@@ -443,7 +443,7 @@
             outputContainer.style.display = 'none';
             
             const systemPrompt = `You are a philosopher specializing in Object-Oriented Ontology, inspired by João Florêncio's paper 'Theatre Without Culture'. Your task is to describe a scene from the perspective of the non-human objects within it, written in Korean. Do not focus on human feelings or interpretations. Instead, describe how the objects themselves interact, perceive, and 'perform' for one another. The tone should be poetic, evocative, and slightly strange, revealing the secret lives of things. Describe the scene provided by the user.`;
-            const apiKey = ""; 
+            const apiKey = "AIzaSyAvzAJ1YR-nlgTIinhHapo18lJM5X5oPx8"; 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
             const payload = {
                 contents: [{ parts: [{ text: userQuery }] }],
