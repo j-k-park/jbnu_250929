@@ -442,7 +442,7 @@
             outputContainer.style.display = 'none';
             
             const systemPrompt = `You are a philosopher specializing in Object-Oriented Ontology, inspired by João Florêncio's paper 'Theatre Without Culture'. Your task is to describe a scene from the perspective of the non-human objects within it, written in Korean. Do not focus on human feelings or interpretations. Instead, describe how the objects themselves interact, perceive, and 'perform' for one another. The tone should be poetic, evocative, and slightly strange, revealing the secret lives of things. Describe the scene provided by the user.`;
-            const apiKey = ""; 
+            const apiKey = "AIzaSyAvzAJ1YR-nlgTIinhHapo18lJM5X5oPx8"; 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
             const payload = {
                 contents: [{ parts: [{ text: userQuery }] }],
@@ -503,4 +503,5 @@
     </script>
 </body>
 </html>
+
 
